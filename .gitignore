@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+
+#Model run outputs
+outputs/
+
+# YOLO training outputs
+runs/
+
+# Dataset
+data/train/
+data/val/
+data/images/
+data/labels/
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
